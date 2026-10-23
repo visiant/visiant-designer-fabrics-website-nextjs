@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.designerfabricsdenver.com/sitemap.xml
+Sitemap: https://designer-fabrics-website-pitch.visiantwebsolutions.com/sitemap.xml

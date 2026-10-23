@@ -38,14 +38,25 @@ npm run start   # serve the production build (port 3000)
 
 ## Cutover status
 
-**2026-10-23 — URL flip DONE.** Canonical, Open Graph, Twitter, sitemap,
-robots and JSON-LD URLs now reference `https://www.designerfabricsdenver.com`
-(the host the live site already canonicalizes to — the apex 301s to www).
+**2026-10-23 — INTERIM step (current): the Coolify app takes over the pitch
+subdomain** `designer-fabrics-website-pitch.visiantwebsolutions.com`. The
+static Cloudflare Pages site retires; this app serves that URL instead.
+Canonical/OG/Twitter/JSON-LD/sitemap/robots URLs therefore reference the
+pitch host, exactly as the static site did. Jeff's steps: add the pitch
+subdomain to the Coolify app's domains, change its Cloudflare DNS record
+from the proxied CNAME to pages.dev to a proxied A record → 5.78.214.13,
+and remove the custom domain from the Pages project (the same sequence the
+dfhome app used on 2026-10-18).
 
-**Remaining (Jeff's side):** attach `www.designerfabricsdenver.com` (and the
-apex) to the Coolify application and point DNS at the Hetzner host
-(5.78.214.13); the apex should 301 to www as it does today. Verify HTTPS
-after the move.
+**LATER — production cutover to www.designerfabricsdenver.com** (the host
+the live site already canonicalizes to; apex 301s to www). Not yet: the
+client's domain move is coordinated with Designer Fabrics. When it's time,
+flip every `https://designer-fabrics-website-pitch.visiantwebsolutions.com`
+reference in `app/page.tsx`, `app/installations/page.tsx`,
+`app/motorization/page.tsx`, `public/sitemap.xml` and `public/robots.txt`
+to `https://www.designerfabricsdenver.com`, push, then attach the production
+domains in Coolify and point the production DNS at 5.78.214.13 (MX records
+untouched — their mail is Yahoo-hosted).
 
 **Post-launch note:** the consultation slot picker's booked-slot snapshot in
 `public/script.js` is the Oct 2026 demo-calendar snapshot — wire it to

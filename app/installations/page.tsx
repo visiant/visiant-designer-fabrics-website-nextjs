@@ -7,25 +7,25 @@ export const metadata: Metadata = {
   title: "Installations | Hunter Douglas Master Installer \u2014 Designer Fabrics, Centennial & Denver, CO",
   description: "Certified Hunter Douglas Master Installer in Centennial, CO \u2014 precision measuring and installation, PowerView\u00ae Automation programming for Crestron, Control4, Savant and Apple Home, and white-glove service that preserves your Hunter Douglas Lifetime Limited Warranty.",
   robots: "index, follow",
-  alternates: { canonical: "https://www.designerfabricsdenver.com/installations" },
+  alternates: { canonical: "https://designer-fabrics-website-pitch.visiantwebsolutions.com/installations" },
   openGraph: {
     type: "website",
     siteName: "Designer Fabrics",
     title: "Installations | Hunter Douglas Master Installer \u2014 Designer Fabrics",
     description: "Installation elevated to an art form: millimeter-accurate measuring, elite smart-home automation, and certified Master Installer craftsmanship in Centennial & Denver.",
-    url: "https://www.designerfabricsdenver.com/installations",
-    images: ["https://www.designerfabricsdenver.com/assets/img/installing.jpg"],
+    url: "https://designer-fabrics-website-pitch.visiantwebsolutions.com/installations",
+    images: ["https://designer-fabrics-website-pitch.visiantwebsolutions.com/assets/img/installing.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Installations | Hunter Douglas Master Installer \u2014 Designer Fabrics",
     description: "A premium window fashion is only as extraordinary as the precision with which it is installed. Certified Hunter Douglas Master Installer \u2014 Centennial, CO.",
-    images: ["https://www.designerfabricsdenver.com/assets/img/installing.jpg"],
+    images: ["https://designer-fabrics-website-pitch.visiantwebsolutions.com/assets/img/installing.jpg"],
   },
 };
 
 const JSON_LD = [
-  "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Installations \u2014 Hunter Douglas Master Installer\",\n    \"url\": \"https://www.designerfabricsdenver.com/installations\",\n    \"about\": { \"@id\": \"https://www.designerfabricsdenver.com/#business\" },\n    \"mainEntity\": {\n      \"@type\": \"Service\",\n      \"name\": \"Window treatment measuring and installation\",\n      \"serviceType\": \"Hunter Douglas Master Installer \u2014 precision measuring, installation and PowerView\u00ae Automation programming\",\n      \"provider\": { \"@id\": \"https://www.designerfabricsdenver.com/#business\" },\n      \"areaServed\": [\"Centennial\", \"Denver\", \"Castle Rock\", \"Castle Pines\"]\n    }\n  }"
+  "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Installations \u2014 Hunter Douglas Master Installer\",\n    \"url\": \"https://designer-fabrics-website-pitch.visiantwebsolutions.com/installations\",\n    \"about\": { \"@id\": \"https://designer-fabrics-website-pitch.visiantwebsolutions.com/#business\" },\n    \"mainEntity\": {\n      \"@type\": \"Service\",\n      \"name\": \"Window treatment measuring and installation\",\n      \"serviceType\": \"Hunter Douglas Master Installer \u2014 precision measuring, installation and PowerView\u00ae Automation programming\",\n      \"provider\": { \"@id\": \"https://designer-fabrics-website-pitch.visiantwebsolutions.com/#business\" },\n      \"areaServed\": [\"Centennial\", \"Denver\", \"Castle Rock\", \"Castle Pines\"]\n    }\n  }"
 ];
 
 export default function InstallationsPage() {
