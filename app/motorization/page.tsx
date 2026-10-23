@@ -7,25 +7,25 @@ export const metadata: Metadata = {
   title: "Motorization | Motorized Draperies, Blinds & Shades \u2014 Designer Fabrics, Centennial & Denver, CO",
   description: "Motorized draperies, blinds and shades in Centennial and Denver \u2014 Hunter Douglas PowerView\u00ae Automation, Somfy-powered drapery motors with TaHoma\u00ae control, and Forest motorized tracks and rods, professionally measured, installed and programmed.",
   robots: "index, follow",
-  alternates: { canonical: "https://designer-fabrics-website-pitch.visiantwebsolutions.com/motorization" },
+  alternates: { canonical: "https://www.designerfabricsdenver.com/motorization" },
   openGraph: {
     type: "website",
     siteName: "Designer Fabrics",
     title: "Motorization | Motorized Draperies, Blinds & Shades \u2014 Designer Fabrics",
     description: "Window treatments that move to your schedule: PowerView\u00ae Automation for Hunter Douglas shades, Somfy-powered custom draperies, and Forest motorized tracks and rods.",
-    url: "https://designer-fabrics-website-pitch.visiantwebsolutions.com/motorization",
-    images: ["https://designer-fabrics-website-pitch.visiantwebsolutions.com/assets/img/motorization.jpg"],
+    url: "https://www.designerfabricsdenver.com/motorization",
+    images: ["https://www.designerfabricsdenver.com/assets/img/motorization.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Motorization | Motorized Draperies, Blinds & Shades \u2014 Designer Fabrics",
     description: "Remote, app, voice and scheduled control for compatible Hunter Douglas shades and custom draperies \u2014 measured, installed and programmed by Designer Fabrics.",
-    images: ["https://designer-fabrics-website-pitch.visiantwebsolutions.com/assets/img/motorization.jpg"],
+    images: ["https://www.designerfabricsdenver.com/assets/img/motorization.jpg"],
   },
 };
 
 const JSON_LD = [
-  "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Motorization \u2014 Motorized Draperies, Blinds and Shades\",\n    \"url\": \"https://designer-fabrics-website-pitch.visiantwebsolutions.com/motorization\",\n    \"about\": { \"@id\": \"https://designer-fabrics-website-pitch.visiantwebsolutions.com/#business\" },\n    \"mainEntity\": {\n      \"@type\": \"Service\",\n      \"name\": \"Window treatment motorization\",\n      \"serviceType\": \"Motorized draperies, blinds and shades \u2014 Hunter Douglas PowerView\u00ae Automation, Somfy-powered drapery motors and Forest motorized tracks and rods\",\n      \"provider\": { \"@id\": \"https://designer-fabrics-website-pitch.visiantwebsolutions.com/#business\" },\n      \"areaServed\": [\"Centennial\", \"Denver\", \"Castle Rock\", \"Castle Pines\"]\n    }\n  }",
+  "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"WebPage\",\n    \"name\": \"Motorization \u2014 Motorized Draperies, Blinds and Shades\",\n    \"url\": \"https://www.designerfabricsdenver.com/motorization\",\n    \"about\": { \"@id\": \"https://www.designerfabricsdenver.com/#business\" },\n    \"mainEntity\": {\n      \"@type\": \"Service\",\n      \"name\": \"Window treatment motorization\",\n      \"serviceType\": \"Motorized draperies, blinds and shades \u2014 Hunter Douglas PowerView\u00ae Automation, Somfy-powered drapery motors and Forest motorized tracks and rods\",\n      \"provider\": { \"@id\": \"https://www.designerfabricsdenver.com/#business\" },\n      \"areaServed\": [\"Centennial\", \"Denver\", \"Castle Rock\", \"Castle Pines\"]\n    }\n  }",
   "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n      {\n        \"@type\": \"Question\",\n        \"name\": \"Can custom draperies be motorized?\",\n        \"acceptedAnswer\": {\n          \"@type\": \"Answer\",\n          \"text\": \"Yes. Custom draperies can be built for a motorized track or rod selected around the finished fabric weight, window span, stack and mounting conditions. Somfy-powered drapery motors and Forest motorized track and rod systems are among the options reviewed during a consultation.\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"How are motorized window treatments controlled?\",\n        \"acceptedAnswer\": {\n          \"@type\": \"Answer\",\n          \"text\": \"Depending on the system, treatments can be operated by handheld remote, wall control, smartphone app, voice assistant, scheduled scenes or a compatible whole-home control system. Designer Fabrics programs the selected controls and shows you how to use them at installation.\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"Do motorized shades have to be hardwired?\",\n        \"acceptedAnswer\": {\n          \"@type\": \"Answer\",\n          \"text\": \"Not always. Depending on the product and window, power may come from a rechargeable battery, replaceable batteries, a plug-in supply or a hardwired connection planned during construction or remodeling. The best option is chosen around access for charging, outlet locations and how often the treatment will move.\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"Why motorize hard-to-reach windows?\",\n        \"acceptedAnswer\": {\n          \"@type\": \"Answer\",\n          \"text\": \"Motorization makes tall, wide or hard-to-reach treatments practical to use every day. Scheduled movement can also support privacy, glare control and a lived-in appearance while you are away.\"\n        }\n      }\n    ]\n  }"
 ];
 

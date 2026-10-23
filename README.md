@@ -36,17 +36,17 @@ npm run start   # serve the production build (port 3000)
    (`npm run build`), start `npm run start`, port **3000**.
 3. Attach the staging domain first, verify, then cut over DNS.
 
-## Cutover TODO (when designerfabricsdenver.com points here)
+## Cutover status
 
-Canonical, Open Graph, Twitter, sitemap and robots URLs currently reference
-`designer-fabrics-website-pitch.visiantwebsolutions.com` — the domain the
-approved design was reviewed on. At cutover, replace that host with
-`https://www.designerfabricsdenver.com` (or the chosen production host) in:
+**2026-10-23 — URL flip DONE.** Canonical, Open Graph, Twitter, sitemap,
+robots and JSON-LD URLs now reference `https://www.designerfabricsdenver.com`
+(the host the live site already canonicalizes to — the apex 301s to www).
 
-- `app/page.tsx`, `app/installations/page.tsx`, `app/motorization/page.tsx`
-  (metadata exports + the JSON-LD blocks)
-- `public/sitemap.xml`, `public/robots.txt`
+**Remaining (Jeff's side):** attach `www.designerfabricsdenver.com` (and the
+apex) to the Coolify application and point DNS at the Hetzner host
+(5.78.214.13); the apex should 301 to www as it does today. Verify HTTPS
+after the move.
 
-Also at cutover: the consultation slot picker's booked-slot snapshot in
+**Post-launch note:** the consultation slot picker's booked-slot snapshot in
 `public/script.js` is the Oct 2026 demo-calendar snapshot — wire it to
 Designer Fabrics' real availability or refresh the snapshot.
