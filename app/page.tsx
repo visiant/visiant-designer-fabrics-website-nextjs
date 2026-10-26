@@ -138,7 +138,7 @@ export default function HomePage() {
         <div className="split-layout split-layout-reverse">
           <div className="fabric-images reveal">
             <img className="fabric-main" src="assets/img/fabric-bolts.jpg" width="1200" height="500" loading="lazy" alt="Bolts of upholstery and drapery fabric arranged by color" />
-            <img className="fabric-detail" src="assets/img/fabric-trim.jpg" width="1200" height="500" loading="lazy" alt="Decorative fabrics and trims for custom home décor projects" />
+            <img className="fabric-detail" src="assets/img/fabric-library-detail.jpg" width="1200" height="500" loading="lazy" alt="Upright bolts of linen and drapery fabric in warm, muted tones" />
           </div>
           <div className="section-heading align-left light-copy reveal">
             <p className="part-tag">Custom Workroom</p>
